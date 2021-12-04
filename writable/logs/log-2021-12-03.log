@@ -1,0 +1,308 @@
+CRITICAL - 2021-12-03 20:01:02 --> Class 'Codeigniter\Model' not found
+#0 C:\xampp_2\htdocs\test_majoo\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp_2\htdocs\test_majoo\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp_2\\htdo...')
+#2 C:\xampp_2\htdocs\test_majoo\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#4 C:\xampp_2\htdocs\test_majoo\app\Controllers\User.php(10): spl_autoload_call('App\\Models\\Mode...')
+#5 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(801): App\Controllers\User->__construct()
+#6 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#7 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-03 20:01:31 --> Class 'Codeigniter\Model' not found
+#0 C:\xampp_2\htdocs\test_majoo\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp_2\htdocs\test_majoo\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp_2\\htdo...')
+#2 C:\xampp_2\htdocs\test_majoo\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#4 C:\xampp_2\htdocs\test_majoo\app\Controllers\User.php(10): spl_autoload_call('App\\Models\\Mode...')
+#5 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(801): App\Controllers\User->__construct()
+#6 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#7 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-03 20:02:57 --> Class 'Codeigniter\Model' not found
+#0 C:\xampp_2\htdocs\test_majoo\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp_2\htdocs\test_majoo\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp_2\\htdo...')
+#2 C:\xampp_2\htdocs\test_majoo\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#4 C:\xampp_2\htdocs\test_majoo\app\Controllers\User.php(10): spl_autoload_call('App\\Models\\Mode...')
+#5 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(801): App\Controllers\User->__construct()
+#6 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#7 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-03 20:36:26 --> Call to undefined method App\Models\Model_User::order_By
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\User.php(14): CodeIgniter\Model->__call('order_By', Array)
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\User->index()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 20:37:12 --> Call to undefined method App\Models\Model_User::order_By
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\User.php(14): CodeIgniter\Model->__call('order_By', Array)
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\User->index()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 21:34:13 --> Class 'Config\filterJWT' not found
+#0 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user', 'before')
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-03 21:34:57 --> Class 'Config\filterJWT' not found
+#0 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user', 'before')
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-03 21:36:28 --> Class 'Config\FilterJwt' not found
+#0 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user', 'before')
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-03 21:37:44 --> Call to undefined function isnull()
+#0 C:\xampp_2\htdocs\test_majoo\app\Filters\FilterJwt.php(20): getJWT(NULL)
+#1 C:\xampp_2\htdocs\test_majoo\system\Filters\Filters.php(173): App\Filters\FilterJwt->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user', 'before')
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 21:38:49 --> Call to undefined function isnull()
+#0 C:\xampp_2\htdocs\test_majoo\app\Filters\FilterJwt.php(20): getJWT(NULL)
+#1 C:\xampp_2\htdocs\test_majoo\system\Filters\Filters.php(173): App\Filters\FilterJwt->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user', 'before')
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 21:39:21 --> Class 'App\Filters\Services' not found
+#0 C:\xampp_2\htdocs\test_majoo\system\Filters\Filters.php(173): App\Filters\FilterJwt->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user', 'before')
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 21:40:21 --> Class 'App\Filters\Services' not found
+#0 C:\xampp_2\htdocs\test_majoo\system\Filters\Filters.php(173): App\Filters\FilterJwt->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user', 'before')
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 21:40:57 --> Class 'App\Services' not found
+#0 C:\xampp_2\htdocs\test_majoo\system\Filters\Filters.php(173): App\Filters\FilterJwt->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user', 'before')
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 21:44:11 --> Class 'App\Filters\services' not found
+#0 C:\xampp_2\htdocs\test_majoo\system\Filters\Filters.php(173): App\Filters\FilterJwt->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user', 'before')
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 21:45:24 --> Class 'App\Filters\Services' not found
+#0 C:\xampp_2\htdocs\test_majoo\system\Filters\Filters.php(173): App\Filters\FilterJwt->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('user', 'before')
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 22:13:24 --> Undefined property: CodeIgniter\Validation\Validation::$run
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_2\\htdo...', 32, Array)
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 22:14:04 --> Undefined property: CodeIgniter\Validation\Validation::$run
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_2\\htdo...', 32, Array)
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 22:14:51 --> Undefined property: CodeIgniter\Validation\Validation::$run
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_2\\htdo...', 32, Array)
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 22:16:01 --> Undefined property: CodeIgniter\Validation\Validation::$run
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_2\\htdo...', 32, Array)
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 22:18:03 --> Undefined property: CodeIgniter\Validation\Validation::$run
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_2\\htdo...', 32, Array)
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 22:21:44 --> Call to undefined function App\Controllers\setRules()
+#0 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 22:48:00 --> Call to undefined function App\Controllers\setRules()
+#0 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 22:51:44 --> Call to undefined function App\Controllers\setRules()
+#0 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 23:12:02 --> Data otentikasi tidak ditemukan
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Otentikasi.php(36): App\Models\Model_Otentikasi->getUser_name('admin1dd')
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Otentikasi->index()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Otentikasi))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 23:12:55 --> Data otentikasi tidak ditemukan
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Otentikasi.php(36): App\Models\Model_Otentikasi->getUser_name('admin1dd')
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Otentikasi->index()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Otentikasi))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 23:19:57 --> Undefined variable: id
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Otentikasi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_2\\htdo...', 45, Array)
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Otentikasi->index()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Otentikasi))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 23:35:16 --> Call to a member function get() on string
+#0 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_1()
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 23:36:16 --> Undefined variable: builder
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_2\\htdo...', 35, Array)
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_1()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 23:41:56 --> Class 'App\Models\Model_Laporan' not found
+#0 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(801): App\Controllers\Laporan->__construct()
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 23:42:09 --> Class 'App\Controllers\Models_siswa' not found
+#0 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_1()
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 23:42:29 --> Undefined variable: model
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_2\\htdo...', 18, Array)
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_1()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 23:42:46 --> Undefined property: App\Controllers\Laporan::$Model_Laporan
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_2\\htdo...', 18, Array)
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_1()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-03 23:45:18 --> Table 'test_majoo_2.transaction' doesn't exist
+CRITICAL - 2021-12-03 23:45:18 --> Table 'test_majoo_2.transaction' doesn't exist
+#0 C:\xampp_2\htdocs\test_majoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `b`.`mer...', 0)
+#1 C:\xampp_2\htdocs\test_majoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `b`.`mer...')
+#2 C:\xampp_2\htdocs\test_majoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `b`.`mer...')
+#3 C:\xampp_2\htdocs\test_majoo\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `b`.`mer...', Array, false)
+#4 C:\xampp_2\htdocs\test_majoo\app\Models\Model_Laporan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php(16): App\Models\Model_Laporan->getLaporan_1()
+#6 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_1()
+#7 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-03 23:46:21 --> Table 'test_majoo_2.transaction' doesn't exist
+CRITICAL - 2021-12-03 23:46:21 --> Table 'test_majoo_2.transaction' doesn't exist
+#0 C:\xampp_2\htdocs\test_majoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `merchan...', 0)
+#1 C:\xampp_2\htdocs\test_majoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `merchan...')
+#2 C:\xampp_2\htdocs\test_majoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `merchan...')
+#3 C:\xampp_2\htdocs\test_majoo\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `merchan...', Array, false)
+#4 C:\xampp_2\htdocs\test_majoo\app\Models\Model_Laporan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php(16): App\Models\Model_Laporan->getLaporan_1()
+#6 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_1()
+#7 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-03 23:46:44 --> Table 'test_majoo_2.transaction' doesn't exist
+CRITICAL - 2021-12-03 23:46:44 --> Table 'test_majoo_2.transaction' doesn't exist
+#0 C:\xampp_2\htdocs\test_majoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp_2\htdocs\test_majoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp_2\htdocs\test_majoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp_2\htdocs\test_majoo\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp_2\htdocs\test_majoo\app\Models\Model_Laporan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php(16): App\Models\Model_Laporan->getLaporan_1()
+#6 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_1()
+#7 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-03 23:48:34 --> Table 'test_majoo_2.transaction' doesn't exist
+CRITICAL - 2021-12-03 23:48:34 --> Table 'test_majoo_2.transaction' doesn't exist
+#0 C:\xampp_2\htdocs\test_majoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp_2\htdocs\test_majoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp_2\htdocs\test_majoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp_2\htdocs\test_majoo\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp_2\htdocs\test_majoo\app\Models\Model_Laporan.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php(16): App\Models\Model_Laporan->getLaporan_1()
+#6 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_1()
+#7 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-03 23:48:49 --> Table 'test_majoo_2.transaction' doesn't exist
+CRITICAL - 2021-12-03 23:48:49 --> Call to a member function getResultArray() on bool
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php(16): App\Models\Model_Laporan->getLaporan_1()
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_1()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-03 23:49:13 --> Table 'test_majoo_2.transaction' doesn't exist
+CRITICAL - 2021-12-03 23:49:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php(16): App\Models\Model_Laporan->getLaporan_1()
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_1()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-03 23:50:23 --> Table 'test_majoo_2.transaction' doesn't exist
+CRITICAL - 2021-12-03 23:50:23 --> Call to a member function getResultArray() on bool
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php(16): App\Models\Model_Laporan->getLaporan_1()
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_1()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 23:53:42 --> Call to undefined function App\Controllers\var_dum()
+#0 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_1()
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 23:57:22 --> Undefined variable: db
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_2\\htdo...', 19, Array)
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_1()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,152 @@
+CRITICAL - 2021-12-04 02:57:28 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp_2\htdocs\test_majoo\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp_2\htdocs\test_majoo\public\index.php(28): require('C:\\xampp_2\\htdo...')
+#4 {main}
+ERROR - 2021-12-04 00:04:40 --> Table 'test_majoo_2.transaction' doesn't exist
+CRITICAL - 2021-12-04 00:04:40 --> Call to a member function getResult() on bool
+#0 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_1()
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-12-04 00:05:43 --> Table 'test_majoo_2.transaction' doesn't exist
+CRITICAL - 2021-12-04 00:05:43 --> Call to a member function getResult() on bool
+#0 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_1()
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-12-04 00:05:49 --> Table 'test_majoo_2.transaction' doesn't exist
+CRITICAL - 2021-12-04 00:05:49 --> Trying to access array offset on value of type bool
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp_2\\htdo...', 19, Array)
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_1()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-04 00:06:02 --> Table 'test_majoo_2.transaction' doesn't exist
+CRITICAL - 2021-12-04 00:06:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::result_array()
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php(18): App\Models\Model_Laporan->get_data()
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_1()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 00:07:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php(18): App\Models\Model_Laporan->get_data()
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_1()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 00:29:20 --> A non well formed numeric value encountered
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp_2\\htdo...', 31, Array)
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_2()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 00:50:34 --> Class 'App\Controllers\JWT' not found
+#0 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_1()
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-04 01:00:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+#0 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_1()
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-04 01:00:38 --> Call to a member function paginate() on array
+#0 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_1()
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-04 01:07:00 --> Too few arguments to function App\Models\Model_Laporan::get_data_2(), 0 passed in C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php on line 89 and exactly 1 expected
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php(89): App\Models\Model_Laporan->get_data_2()
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_2()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 01:07:38 --> Too few arguments to function App\Models\Model_Laporan::get_data_2(), 0 passed in C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php on line 89 and exactly 1 expected
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php(89): App\Models\Model_Laporan->get_data_2()
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_2()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 01:15:47 --> Undefined offset: 11
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp_2\\htdo...', 132, Array)
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_2()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 01:16:16 --> Undefined offset: 11
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php(133): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp_2\\htdo...', 133, Array)
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_2()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 01:16:26 --> Undefined offset: 11
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp_2\\htdo...', 134, Array)
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_2()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 01:17:06 --> Undefined offset: 11
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp_2\\htdo...', 137, Array)
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_2()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 01:30:48 --> Undefined variable: data_
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_2\\htdo...', 149, Array)
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_2()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 01:35:36 --> Data otentikasi tidak ditemukan
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Otentikasi.php(36): App\Models\Model_Otentikasi->getUser_name('admin6')
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Otentikasi->index()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Otentikasi))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 02:01:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::last_query()
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php(123): App\Models\Model_Laporan->get_data_2('1')
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_2()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 02:01:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::last_query()
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php(123): App\Models\Model_Laporan->get_data_2('1')
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_2()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 02:02:46 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php(123): App\Models\Model_Laporan->get_data_2('1')
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_2()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 02:02:55 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 C:\xampp_2\htdocs\test_majoo\app\Controllers\Laporan.php(123): App\Models\Model_Laporan->get_data_2('1')
+#1 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(824): App\Controllers\Laporan->laporan_2()
+#2 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp_2\htdocs\test_majoo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_2\htdocs\test_majoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
